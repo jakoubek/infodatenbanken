@@ -1,0 +1,43 @@
+site_name: Infodatenbanken
+site_author: Oliver Jakoubek
+site_url: https://www.infodatenbanken.de/
+
+nav:
+  - Start:
+    - 'index.md'
+    - Impressum: impressum.md
+  - 'Jetzt kaufen':
+    - 'kaufen.md'
+
+theme:
+  name: material
+  language: de
+  palette:
+    scheme: default
+    primary: blue
+    accent: indigo
+  features:
+    - navigation.tabs
+    - navigation.instant
+    - navigation.sections
+    - navigation.expand
+    - navigation.indexes
+    - navigation.top
+  highlightjs: true
+
+copyright: Copyright &copy; 2022 <a href="https://www.jakoubek.net/?ref=idb">Oliver Jakoubek Software & Beratung</a>
+
+plugins:
+  - search:
+      lang:
+        - de
+        - en
+  - macros
+
+markdown_extensions:
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - attr_list
+  - admonition
+  - meta
+
