@@ -11,6 +11,8 @@ nav:
 
 theme:
   name: material
+  icon:
+    logo: material/database-cog
   language: de
   palette:
     scheme: default
@@ -38,6 +40,7 @@ markdown_extensions:
   - pymdownx.highlight
   - pymdownx.superfences
   - attr_list
+  - md_in_html
   - admonition
   - meta
 
