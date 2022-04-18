@@ -9,7 +9,7 @@ Erhalten Sie zum Festpreis aktuelle Daten für die unbegrenzte betriebliche Nutz
 - **Länder**: alle Länder der Welt mit ihren ISO-Codes und den Codes für die Sprachen.
 - **Bankleitzahlen**: alle Bankleitzahlen und SWIFT-Codes der deutschen Banken - vierteljährlich frisch aktualisiert.
 - **Vornamen**: mehr als 3.000 häufig verwendete Vornamen mit dem *normalerweise* zugeordneten Geschlecht. Weil in Deutschland Unternehmen ihre Mitarbeiter nun mal *förmlich* mit Anrede ansprechen.
-- *Nachname*: Sie haben ein Namensfeld und möchten prüfen, ob es sich um einen Nachnamen handeln könnte.
+- **Nachname**: Sie haben ein Namensfeld und möchten prüfen, ob es sich um einen Nachnamen handeln könnte.
 
 
 ## Lieferung
