@@ -7,7 +7,7 @@ Die Daten werden - abhängig vom datensatz-typischen Änderungsbedarf - regelmä
 
 ## Wie erfolgt die Lieferung der Daten?
 
-Sie bekommen per E-Mail ein ZIP-Archiv mit allen Datensätzen zugesendet. Nähere Informationen zum Inhalt des ZIP-Archivs [finden Sie hier](/dateistruktur/).
+Sie bekommen per E-Mail ein ZIP-Archiv mit allen Datensätzen zugesendet. Nähere Informationen zum Inhalt des ZIP-Archivs [finden Sie hier](/archivstruktur/).
 
 
 ## Ich kann die Datei nicht mehr finden. Kann ich diese erneut bekommen?

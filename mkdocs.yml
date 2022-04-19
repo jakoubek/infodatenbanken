@@ -5,8 +5,9 @@ site_url: https://www.infodatenbanken.de/
 nav:
   - Start:
     - 'index.md'
-    - 'Fragen': fragen.md
     - 'Jetzt kaufen': kaufen.md
+    - 'Fragen': fragen.md
+    - 'Archivstruktur': archivstruktur.md
     - Impressum: impressum.md
   - 'Länder':
     - 'laender/index.md'

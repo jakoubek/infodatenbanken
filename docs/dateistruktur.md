@@ -1,3 +1,0 @@
-# Struktur der ZIP-Datei
-
-
