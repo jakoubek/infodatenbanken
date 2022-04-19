@@ -1,11 +1,17 @@
-site_name: Infodatenbanken
+site_name: Infodatenbanken.de
 site_author: Oliver Jakoubek
 site_url: https://www.infodatenbanken.de/
 
 nav:
   - Start:
     - 'index.md'
+    - 'Fragen': fragen.md
+    - 'Jetzt kaufen': kaufen.md
     - Impressum: impressum.md
+  - 'Länder':
+    - 'laender/index.md'
+  - 'Postleitzahlen':
+    - 'postleitzahlen/index.md'
   - 'Jetzt kaufen':
     - 'kaufen.md'
 
@@ -16,8 +22,9 @@ theme:
   language: de
   palette:
     scheme: default
-    primary: blue
-    accent: indigo
+    primary: teal
+    accent: teal
+  custom_dir: overrides
   features:
     - navigation.tabs
     - navigation.instant
@@ -39,8 +46,12 @@ plugins:
 markdown_extensions:
   - pymdownx.highlight
   - pymdownx.superfences
+  - pymdownx.caret
   - attr_list
   - md_in_html
   - admonition
   - meta
 
+extra:
+  analytics:
+    provider: matomo
