@@ -55,4 +55,4 @@ markdown_extensions:
 
 extra:
   analytics:
-    provider: matomo
+    provider: plausible
