@@ -39,7 +39,7 @@ jobs:
           KEY: ${{ secrets.SSH_PRIVATE_KEY }}
           PORT: ${{ secrets.PORT }}
           source: "site/*"
-          target: "/home/ojsb/apps/infodatenbanken"
+          target: "/home/ploi/infodatenbanken.de"
           strip_components: 1
 
       # Step 6 - Notify via Pushover
