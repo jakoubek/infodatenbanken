@@ -30,15 +30,14 @@ jobs:
       - name: Build site
         run: mkdocs build
 
-      # Step 5 - Deploy via scp to Opalstack
+      # Step 5 - Deploy via scp to Hetzner
       - name: deploy website to infodatenbanken.de
         uses: appleboy/scp-action@master
-        env:
+        with:
           HOST: ${{ secrets.HOST }}
           USERNAME: ${{ secrets.USERNAME }}
+          KEY: ${{ secrets.SSH_PRIVATE_KEY }}
           PORT: ${{ secrets.PORT }}
-          KEY: ${{ secrets.KEY }}
-        with:
           source: "site/*"
           target: "/home/ojsb/apps/infodatenbanken"
           strip_components: 1
